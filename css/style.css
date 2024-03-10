@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    
 }
 
 .main-container {
@@ -57,6 +58,58 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
+/****** Header ******/
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    padding: 30px 50px 30px 50px;
+}
+
+.header-logo {
+    width: 37.9%;
+    height: auto;
+}
+
+.navigation {
+    padding: 0px 50px 0px 50px;
+    height: 35px
+}
+
+.menu-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 68px;
+    height: 100%;
+}
+
+.button-hebergements {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.button-hebergements:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
+.button-activite {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.button-activite:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
