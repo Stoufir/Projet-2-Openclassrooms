@@ -1,4 +1,6 @@
 /****** General ***********/
+
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -16,13 +18,13 @@
 body {
     display: flex;
     justify-content: center;
-    
+    margin: auto;
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 50px; 
     box-sizing: border-box;
 }
 
@@ -59,6 +61,11 @@ a {
     color: var(--main-bg-color)
 }
 
+.main {
+    padding: 0 50px;
+}
+
+
 /****** Header ******/
 
 .header { 
@@ -67,7 +74,12 @@ a {
 }
 
 .logo-container {
-    padding: 30px 50px 30px 50px;
+   width: 161.09px;
+   height: 79px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
 }
 
 .header-logo {
@@ -77,7 +89,7 @@ a {
 
 .navigation {
     padding: 0px 50px 0px 50px;
-    height: 35px
+    height: 35px;
 }
 
 .menu-navigation {
@@ -95,19 +107,134 @@ a {
 }
 
 .button-hebergements:hover {
-    color: #0065FC;
-    border-top: 2px #0065FC solid;
+    color: var(--main-color);
+    border-top: 2px var(--main-color) solid;
 }
 
-.button-activite {
+.button-activites {
     height: 100%;
     display: flex;
     align-items: end;
 }
 
-.button-activite:hover {
-    color: #0065FC;
-    border-top: 2px #0065FC solid;
+.button-activites:hover {
+    color: var(--main-color);
+    border-top: 2px var(--main-color) solid;
+}
+
+/****** Search zone *****/
+
+.search-zone { padding: 30px 0px 30px 00px;
+   
+}
+
+.search-bar {
+    Width: 377px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin: 2em 0em;
+
+}
+
+.loc-icon {
+    padding: 15px 18px;
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0px 0px 15px;
+    border: 1px var(--main-bg-color) solid;
+    border-right: none;
+}
+
+.taping-zone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    height: 100%;
+    width: 100%;
+    border-top: 1px var(--main-bg-color) solid;
+    border-bottom: 1px var(--main-bg-color) solid;
+}
+
+input[id=city] {
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+input[id=city]:focus {
+    outline: none;
+}
+
+
+
+input[id=city]:visited {
+    background-color: white;
+}
+
+
+
+.button-search {
+    padding: 15px 16px 15px 16px;
+    border-radius: 0px 15px 15px 0px;
+    background-color:var(--main-color) ;
+    color: white ;
+    font-weight: bold;  
+    border: 1px var(--main-bg-color) solid;
+    border-left: none;  
+}
+
+.city-filter {
+    width: 758px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap : 15px;
+
+    
+}
+
+.button-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border : 2px var(--main-bg-color) solid;
+    border-radius: 25px;
+    padding: 4px 19px;
+    gap : 10px;
+    height: 2em;
+    width: auto;
+    align-items: center;
+}
+
+.button-filter:hover {
+    background-color: #DEEBFF;
+   
+}
+
+.info-disponibility {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 1em 0em 0em 0em;
+
+}
+
+.info-icon {
+    border:1px var(--main-bg-color) solid;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
