@@ -101,24 +101,24 @@ a {
     height: 100%;
 }
 
-.button-hebergements {
+.link-hebergements {
     height: 100%;
     display: flex;
     align-items: end;
 }
 
-.button-hebergements:hover {
+.link-hebergements:hover {
     color: var(--main-color);
     border-top: 2px var(--main-color) solid;
 }
 
-.button-activites {
+.link-activites {
     height: 100%;
     display: flex;
     align-items: end;
 }
 
-.button-activites:hover {
+.link-activites:hover {
     color: var(--main-color);
     border-top: 2px var(--main-color) solid;
 }
@@ -153,7 +153,6 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-  
     height: 100%;
     width: 100%;
     border-top: 1px var(--main-bg-color) solid;
@@ -240,6 +239,7 @@ input[id=city]:visited {
 
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -253,13 +253,13 @@ input[id=city]:visited {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
     display: flex;
     flex-direction: column;
     gap:30px;
     padding: 30px;
-    
 }
 
 
@@ -269,6 +269,7 @@ input[id=city]:visited {
     gap: 30px;
     height: auto;   
 }
+
 .hebergements .cards-row a {
     flex: 1;
 }
@@ -277,8 +278,7 @@ input[id=city]:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
-    
+    gap: 4px;    
 }
 
 .hebergements img {
@@ -310,6 +310,7 @@ input[id=city]:visited {
 }
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -374,6 +375,7 @@ input[id=city]:visited {
 .activites a {
     width: 25%;
 }
+
 .activites .card {
     padding: 0;
 }
@@ -413,6 +415,7 @@ input[id=city]:visited {
 .footer-title {
     margin: 0;
 }
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
