@@ -36,7 +36,6 @@ a {
 .section-title {
     margin: 0;
     font-size: 22px;
-    background-color: #0065fc63;
 }
 
 .card {
@@ -63,7 +62,7 @@ a {
 }
 
 .main {
-    padding: 0 50px;
+    padding: 0 50px 0 50px;
 }
 
 
@@ -284,7 +283,6 @@ input[id=city]:visited {
 .hebergements img {
     height: 124px;
     width: 100%;
-    object-fit:cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -356,7 +354,39 @@ input[id=city]:visited {
 }
 
 
+/***** Activites *****/
 
+.activites {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;  
+    gap: 30px;
+}
+
+.activites-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.activites a {
+    width: 25%;
+}
+.activites .card {
+    padding: 0;
+}
+
+.activites img {
+    height: 380px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites .card-content {
+    padding: 5px 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
